@@ -19,7 +19,7 @@
     ./deploy-policyDef.ps1 -definitionFile C:\Temp\azurepolicy.json -subscriptionId cd45c044-18c4-4abe-a908-1e0b79f45003
     Deploy a single policy definition to a subscription (interactive mode)
   .EXAMPLE
-    ./deploy-policyDef.ps1 -FolderPath C:\Temp -recurse -managementGroupName myMG -silent
+    ./deploy-policyDef.ps1 -FolderPath C:\Temp -recurse -managementGroupName myMG -silent -recurse
     Deploy all policy definitions in a folder and its sub folders to a management group (silent mode, i.e. in a CI/CD pipeline)
 #>
 
